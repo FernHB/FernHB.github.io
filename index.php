@@ -5,7 +5,7 @@ if(mysqli_connect_errno()){
 	exit();
 }
 
-$id=$_GET['t'];
+$id=$_GET['73009594'];
 $query="SELECT * FROM alumnos WHERE dni='$id'";
 $resultado=$mysqli->query($query);
 
